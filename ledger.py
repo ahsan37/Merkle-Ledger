@@ -13,7 +13,7 @@ class Ledger:
 
         self.load_from_wal()
 
-    # {{ wal for persistentance / demonstrate durability
+    # {{ wal for persistentance / durability
 
     def load_from_wal(self):
         if not os.path.exists(self.wal_path):
